@@ -23,6 +23,6 @@ else:
     if decimal >= 0.0009:
         bin_3 = 0
         res.append(str(bin_3))
-print(decimal)
+print("El decimal sobrante es:", decimal)
 res = ''.join(res)
 print("Decimal a binario :p","".join(bin_ent[::-1]), ".", res)

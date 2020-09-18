@@ -85,7 +85,7 @@ for i in range(0, len(A)):
       s.append(A[i][j])
     cont_diez = len(s)
 R.append(cont_diez)
-print(R)
+print("El vector R es:", R)
 for i in range(0, len(R)):
   print("El numero ", i+1, "se repite", R[i], "veces")
 ac = 0

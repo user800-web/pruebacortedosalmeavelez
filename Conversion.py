@@ -88,4 +88,7 @@ R.append(cont_diez)
 print(R)
 for i in range(0, len(R)):
   print("El numero ", i+1, "se repite", R[i], "veces")
-
+ac = 0
+for i in range(0, len(R)):
+  ac = ac + R[i]
+print("Suma de valores de R es:", ac)
